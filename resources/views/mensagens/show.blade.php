@@ -1,4 +1,6 @@
+<div align="center">
 <h1>Mensagem - sobre:</h1><br>
+
 <p>{{$mensagens->titulo}}</p>
 	<p>{{$mensagens->autor}}</p>
 	<p>{{$mensagens->descricao}}</p>
@@ -9,9 +11,9 @@
 	<a href="{{$mensagens->id}}/delete">
 <button type="button" name="" value="" style="
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
+        font-size: 30px;
         color: #000000;
-        padding: 10px 20px;
+        padding: 50px 100px;
         background: -moz-linear-gradient(
                 top,
                 #00ff00 0%,
@@ -42,9 +44,9 @@
 <button type="button" name="" value="" style="
 
 font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
+font-size: 30px;
         color: #000000;
-        padding: 10px 20px;
+        padding: 50px 100px;
         background: -moz-linear-gradient(
                 top,
                 #00ff00 0%,
@@ -69,4 +71,4 @@ font-family: Arial, Helvetica, sans-serif;
         text-shadow:
                 0px -1px 0px rgba(000,000,000,0.4),
                 0px 1px 0px rgba(255,255,255,0.3);
-">Editar Mensagem</button></a>
+">Editar Mensagem</button></a></div>

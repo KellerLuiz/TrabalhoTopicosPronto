@@ -1,3 +1,4 @@
+<div align="center">
 <h1>Formulario cadastro de Atividades</h1>
 <hr>
 <form action="/atividades" method="post">
@@ -25,3 +26,4 @@
     </div>
     </div>
     @endif
+</div>

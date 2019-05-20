@@ -1,3 +1,4 @@
+<div align="center">
 <h1>Formulario de atualização da mensagens código= {{$mensagens->id}}</h1>
 <hr>
 
@@ -8,6 +9,9 @@
     Descrição:  <input type="text" name="texto" value="{{$mensagens->texto}}"> <br>
     Autor:  <input type="text" name="autor" value="{{$mensagens->texto}}"> <br>
 <input type="submit" value="Salvar">
+
+
+
 </form>
 
 
@@ -35,3 +39,4 @@
     </div>
     @endif
 
+</div>

@@ -1,3 +1,5 @@
+
+<div align="center">
 <h1>Atividade {{$atividade->id}}</h1>
 <hr>
 <h3><b>ID:</b> {{$atividade->id}}</h3>
@@ -12,9 +14,9 @@
 <a href="{{$atividade->id}}/delete">
 <button type="button" name="" value="" style="
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
+        font-size: 30px;
         color: #000000;
-        padding: 10px 20px;
+        padding: 50px 100px;
         background: -moz-linear-gradient(
                 top,
                 #00ff00 0%,
@@ -45,9 +47,9 @@
 <button type="button" name="" value="" style="
 
 font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
+        font-size: 30px;
         color: #000000;
-        padding: 10px 20px;
+        padding: 50px 100px;
         background: -moz-linear-gradient(
                 top,
                 #00ff00 0%,
@@ -73,3 +75,4 @@ font-family: Arial, Helvetica, sans-serif;
                 0px -1px 0px rgba(000,000,000,0.4),
                 0px 1px 0px rgba(255,255,255,0.3);
 ">Editar Atividade</button></a>
+</div>

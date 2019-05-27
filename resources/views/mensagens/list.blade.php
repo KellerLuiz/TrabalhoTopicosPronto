@@ -1,6 +1,12 @@
+
+
+
+
+
+
+@if(Auth::check()){
 <a href="/mensagens/create">
 <button type="button" name="" value="" style="
-
 font-family: Arial, Helvetica, sans-serif;
         font-size: 30px;
         color: #000000;
@@ -30,6 +36,9 @@ font-family: Arial, Helvetica, sans-serif;
                 0px -1px 0px rgba(000,000,000,0.4),
                 0px 1px 0px rgba(255,255,255,0.3);
 ">Criar Mensagem</button></a>
+@else
+<h1>Necessario logar para criar um novo cadastro</h1>
+@endif
 <h1>Lista de Mensagens cadastradas</h1>
 
 

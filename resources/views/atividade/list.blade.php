@@ -1,4 +1,5 @@
-<a href="/atividades/create">
+@if(Auth::check()){
+        <a href="/atividades/create">
 <button type="button" name="" value="" style="
 
 font-family: Arial, Helvetica, sans-serif;
@@ -30,6 +31,9 @@ font-family: Arial, Helvetica, sans-serif;
                 0px -1px 0px rgba(000,000,000,0.4),
                 0px 1px 0px rgba(255,255,255,0.3);
 ">Criar Atividade</button></a>
+@else
+<h1>Necessario logar para criar um novo cadastro</h1>
+@endif
 
 <h1>Lista de Atividades cadastradas</h1>
 <hr>

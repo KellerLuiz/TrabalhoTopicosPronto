@@ -3,15 +3,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/mensagens', 'MensagensController@index');
-
-
-
 Route::get('/atividades', 'AtividadeController@index');
 
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
-
+//Route::group(['middleware' => 'auth'], function(){aq vai as routes}) igual o de baixo
 Route::middleware(['auth'])->group(function () {
     Route::get('/mensagens/create', 'MensagensController@create');
     Route::post('/mensagens', 'MensagensController@store');
@@ -29,9 +25,5 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/atividades/{id}/delete','AtividadeController@delete');
     Route::delete('/atividades/{id}', 'AtividadeController@destroy');
 });
-
-
 Route::prefix('admin')->middleware('auth')->namespace('Admin')->group(function(){
-    
-
 });

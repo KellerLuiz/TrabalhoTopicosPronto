@@ -329,6 +329,7 @@ class ComposerStaticInit66a3ff134dc36eb896668f80e7c0f021
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\MensagensController' => __DIR__ . '/../..' . '/app/Http/Controllers/MensagensController.php',
         'App\\Http\\Controllers\\exercicioController' => __DIR__ . '/../..' . '/app/Http/Controllers/exercicioController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
@@ -343,7 +344,6 @@ class ComposerStaticInit66a3ff134dc36eb896668f80e7c0f021
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
-        'App\\atividade' => __DIR__ . '/../..' . '/app/atividade.php',
         'App\\exercicio' => __DIR__ . '/../..' . '/app/exercicio.php',
         'App\\mensagens' => __DIR__ . '/../..' . '/app/mensagens.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
@@ -3690,6 +3690,7 @@ class ComposerStaticInit66a3ff134dc36eb896668f80e7c0f021
         'phpDocumentor\\Reflection\\Types\\String_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/String_.php',
         'phpDocumentor\\Reflection\\Types\\This' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/This.php',
         'phpDocumentor\\Reflection\\Types\\Void_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/Void_.php',
+        'usuarioTableSeeder' => __DIR__ . '/../..' . '/database/seeds/usuarioTableSeeder.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

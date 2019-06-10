@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Atividade;
+use App\mensagens;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -78,9 +79,8 @@ class AtividadeController extends Controller
     public function show($id)
     {
         
-            $atividade = Atividade::find($id);
+            $atividade = Atividade::find($id)->with(['mensagens'])->get()->first();
             return view('atividade.show',['atividade' => $atividade]);
-        
     }
 
     /**

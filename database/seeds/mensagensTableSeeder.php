@@ -16,19 +16,25 @@ class mensagensTableSeeder extends Seeder
             mensagens::create([
                 'titulo' => 'Alo galera',
                 'texto' => 'preciso que todos prestem atenção nisso',
-                'autor' => 'Luiz Keller'
+                'autor' => 'Luiz Keller',
+                'user_id' => 1 ,
+                'atividade_id' => 1
             ]);
     
             mensagens::create([
                 'titulo' => 'teste de sOftware',
                 'texto' => 'será testado o software logologo',
-                'autor' => 'Luiz Keller'
+                'autor' => 'Luiz Keller',
+                'user_id' => 1,
+                'atividade_id' => 1
             ]);
 
             mensagens::create([
                 'titulo' => 'Trabalho ',
                 'texto' => 'Segunda dia 13',
-                'autor' => 'Tiago'
+                'autor' => 'Tiago',
+                'user_id' => 1,
+                'atividade_id' => 1
             ]);
 
 

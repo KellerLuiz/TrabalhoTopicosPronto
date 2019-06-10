@@ -1,9 +1,3 @@
-
-
-
-
-
-
 @if(Auth::check()){
 <a href="/mensagens/create">
 <button type="button" name="" value="" style="

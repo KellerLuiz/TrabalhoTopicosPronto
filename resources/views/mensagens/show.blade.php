@@ -2,6 +2,7 @@
 <h1>Mensagem - sobre:</h1><br>
 
 <p>{{$mensagens->titulo}}</p>
+        <p>Ref. Ativ.: {{$mensagens->atividade->id}}</p>
 	<p>{{$mensagens->autor}}</p>
 	<p>{{$mensagens->titulo}}</p>
 	<p>{{$mensagens->texto}}</p>
